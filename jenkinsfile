@@ -9,8 +9,8 @@ pipeline {
         }        
         stage('mvn') {
             steps {
-                // Run Maven on a Unix agent.
-                sh "mvn -Dmaven.test.failure.ignore=true clean test"
+                // Run Maven on a Window agent.
+                bat "mvn -Dmaven.test.failure.ignore=true clean test"
             }
         }
     }
