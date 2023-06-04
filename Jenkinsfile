@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello Hongik'
+                cd C:\Users\L-106\Desktop\2023 소공\SeleniumExample
+                mvn clean test
             }
         }
     }
