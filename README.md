@@ -1,3 +1,3 @@
 # jenkins
 Jenkins Github Demo
-polling test
+pipeline test
