@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent demoAgent
 
     stages {
         stage('Selenium Test') {
